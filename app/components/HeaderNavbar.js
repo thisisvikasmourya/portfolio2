@@ -10,10 +10,10 @@ export default function HeaderNavbar() {
 
   // Replace javascript:void(0) path with your path
   const navigation = [
-    { title: "About Me", path: "javascript:void(0)" },
-    { title: "Skills", path: "javascript:void(0)" },
-    { title: "Project", path: "javascript:void(0)" },
-    { title: "Contact Me", path: "javascript:void(0)" },
+    { title: "About Me", path: "#Aboutme" },
+    { title: "Skills", path: "#Skill" },
+    { title: "Project", path: "#Project" },
+    { title: "Contact Me", path: "#Contact" },
   ];
 
   return (

@@ -5,7 +5,7 @@ import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 const AboutMe = () => {
   return (
-    <div className="max-w-screen-xl mx-auto md:px-8 px-4 ">
+    <div className="max-w-screen-xl mx-auto md:px-8 px-4 " id="Aboutme">
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-4  justify-between md:flex   place-items-center py-16">
         <div className="w-full  lg:w-1/2">
           <Image

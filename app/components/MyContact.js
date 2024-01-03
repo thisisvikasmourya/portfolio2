@@ -3,7 +3,7 @@ import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
 
 const MyContact = () => {
   return (
-    <div>
+    <div id="Contact">
       <div className="max-w-screen-xl mx-auto px-4 md:px-8 py-16">
         <div className="flex lg:flex-row flex-col justify-between   gap-16 ">
           {" "}

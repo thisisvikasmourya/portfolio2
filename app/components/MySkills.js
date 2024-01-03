@@ -26,7 +26,7 @@ import { TbApi } from "react-icons/tb";
 
 const MySkills = () => {
   return (
-    <div className="py-20">
+    <div className="py-20" id="Skill">
       <div className="max-w-screen-xl mx-auto md:px-8 px-4">
         <div>
           <h1 className="text-[48px] tracking-[-0.96px] leading-[70px] py-6 text-center ">

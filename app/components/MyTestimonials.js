@@ -6,7 +6,7 @@ export default () => {
       name: "Martin escobar",
       title: "Founder of meta",
       quote:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est hendrerit, porta nunc vitae. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "An exceptional MERN stack developer with 2 years of expertise! Consistently delivers high-quality, scalable solutions",
     },
     {
       no: 2,
@@ -14,7 +14,7 @@ export default () => {
       name: "Angela stian",
       title: "Product designer",
       quote:
-        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et est",
+        "Impressed by the proficiency of this experienced MERN stack developer. Innovative problem-solving and a true asset to any team.",
     },
     {
       no: 3,
@@ -22,7 +22,7 @@ export default () => {
       name: "Karim ahmed",
       title: "DevOp engineer",
       quote:
-        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+        "With 2 years of hands-on experience, this MERN stack developer showcases unparalleled skills. A go-to professional for robust and efficient solutions. ",
     },
   ];
 

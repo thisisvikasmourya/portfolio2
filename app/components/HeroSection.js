@@ -8,7 +8,7 @@ const HeroSection = () => {
     <div className="max-w-screen-xl mx-auto md:px-8 px-4 ">
       <div className="flex lg:flex-row flex-col  justify-between md:flex   place-items-center py-16">
         <div>
-          <h1 className="lg:text-[48px] text-[28px] tracking-[-0.96px] leading-[56px]">
+          <h1 className="lg:text-[48px] text-[28px] tracking-[-0.96px] lg:leading-[56px] leading-[45px]">
             Hello I'm{" "}
             <span className="lg:text-[48px] text-[28px] font-extrabold tracking-[-0.96px]">
               {" "}
@@ -17,7 +17,7 @@ const HeroSection = () => {
           </h1>
           <h1 className="lg:text-[48px] text-[28px] font-extrabold tracking-[-0.96px]">
             Full-stack{" "}
-            <span className="textt lg:text-[48px] text-[28px] font-extrabold text-white leading-[56px]">
+            <span className="textt lg:text-[48px] text-[28px] font-extrabold text-white lg:leading-[56px] leading-[45px]">
               Developer
             </span>
           </h1>

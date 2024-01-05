@@ -39,25 +39,25 @@ const MySkills = () => {
         </div>
         <div className="grid lg:grid-cols-2 grid-cols-1  place-items-center ">
           <div className="grid lg:grid-rows-2 grid-rows-1 gap-3 place-items-center  text-center py-2">
-            <div className="text-xl font-semibold">Frontend Development</div>
+            <div className="text-xl font-semibold">Frontend Dev.</div>
             <div className="grid lg:grid-cols-6 grid-cols-3 gap-3 place-items-center  ">
               {" "}
-              <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+              <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                 <BsFiletypeHtml />
               </div>
-              <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+              <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                 <BsFiletypeCss />
               </div>
-              <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+              <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                 <SiTailwindcss />
               </div>
-              <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+              <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                 <RiJavascriptLine />
               </div>
-              <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+              <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                 <RiReactjsFill />
               </div>
-              <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+              <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                 <TbBrandNextjs />
               </div>
             </div>
@@ -65,19 +65,19 @@ const MySkills = () => {
           <div>
             {" "}
             <div className="grid lg:grid-rows-2 grid-rows-1 gap-3 place-items-center py-2 ">
-              <div className="text-xl font-semibold">Backend Development</div>
+              <div className="text-xl font-semibold">Backend Dev.</div>
               <div className="grid lg:grid-cols-4 grid-cols-2 gap-3 place-items-center  ">
                 {" "}
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <IoLogoNodejs />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <TbApi />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <SiExpress />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <SiJsonwebtokens />
                 </div>
               </div>
@@ -87,26 +87,26 @@ const MySkills = () => {
             {" "}
             <div className="grid lg:grid-rows-2 grid-rows-1 gap-3 place-items-center text-center py-2 ">
               <div className="text-xl font-semibold">
-                Database Management / Deployment and Hosting
+                DB Mgmt / Deploy & Hosting
               </div>
               <div className="grid lg:grid-cols-6 grid-cols-3 gap-3 place-items-center  ">
                 {" "}
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <DiMongodb />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <SiPostgresql />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <TbBrandMysql />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <SiHeroku />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <BiLogoNetlify />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <IoLogoVercel />
                 </div>
               </div>
@@ -116,19 +116,19 @@ const MySkills = () => {
             {" "}
             <div className="grid lg:grid-rows-2 grid-rows-1 gap-3  place-items-center  text-center py-2">
               <div className="text-xl font-semibold">
-                Version Control / State Management
+                Ver. Ctrl / State Mgmt
               </div>
               <div className="grid lg:grid-cols-4 grid-cols-2 gap-3 place-items-center  ">
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <FaGithubAlt />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <FaGitAlt />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <SiRedux />
                 </div>
-                <div className="text-[30px] border-2 border-black text-center  rounded-lg p-3">
+                <div className="text-[30px] border-2 border-black text-center  rounded-lg lg:p-6 p-6">
                   <FaGitAlt />
                 </div>
               </div>

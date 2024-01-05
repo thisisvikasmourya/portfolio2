@@ -14,7 +14,7 @@ const MyExperience = () => {
           </h1>
         </div>
         <div className="">
-          <div className="py-4 border p-5 rounded-lg m-4">
+          <div className="py-4 border p-5 rounded-lg m-4 hover:bg-white hover:text-black bg-black text-white">
             <div className="flex justify-between py-2">
               <h1>
                 Full stack developer - Digital aided school (Mumbai Maharashtra)
@@ -30,7 +30,7 @@ const MyExperience = () => {
               and improve products and technologies.
             </div>
           </div>
-          <div className="py-4 border p-5 rounded-lg m-4">
+          <div className="py-4 border p-5 rounded-lg m-4 hover:bg-white hover:text-black bg-black text-white transition ease-in-out delay-150">
             <div className="flex justify-between py-2">
               <h1>
                 Frontend developer(Intern) - Digital aided school (Mumbai

@@ -3,24 +3,25 @@ export default () => {
     {
       no: 1,
       avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-      name: "Martin escobar",
-      title: "Founder of meta",
+      name: "Ashish Mishra",
+      title: "Founder of Digitech",
       quote:
         "An exceptional MERN stack developer with 2 years of expertise! Consistently delivers high-quality, scalable solutions",
     },
     {
       no: 2,
-      avatar: "https://randomuser.me/api/portraits/women/79.jpg",
-      name: "Angela stian",
-      title: "Product designer",
+      avatar: "https://randomuser.me/api/portraits/men/79.jpg",
+      name: "MallikArjun Reddy",
+      title: "Founder of Moram Napu",
+   
       quote:
         "Impressed by the proficiency of this experienced MERN stack developer. Innovative problem-solving and a true asset to any team.",
     },
     {
       no: 3,
       avatar: "https://randomuser.me/api/portraits/men/86.jpg",
-      name: "Karim ahmed",
-      title: "DevOp engineer",
+      name: "Mallik Arjun",
+      title: "Founder of DAS",
       quote:
         "With 2 years of hands-on experience, this MERN stack developer showcases unparalleled skills. A go-to professional for robust and efficient solutions. ",
     },

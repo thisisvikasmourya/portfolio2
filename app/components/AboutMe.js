@@ -16,7 +16,7 @@ const AboutMe = () => {
           />
         </div>
         <div className="w-full  lg:w-1/2">
-          <h1 className="text-[48px] tracking-[-0.96px] leading-[70px] py-6 ">
+          <h1 className="text-[48px] tracking-[-0.96px] leading-[70px]  py-6 ">
             About{" "}
             <span className="text-[48px] font-extrabold tracking-[-0.96px]">
               {" "}
@@ -39,7 +39,7 @@ const AboutMe = () => {
             ensuring optimal user experiences through pixel-perfect design and
             high-performance code.
           </p>
-          <p className="py-3">
+          <p className="py-3 text-black ">
             {" "}
             Beyond the code, I'm active on Instagram, where I share tech
             insights and embrace the "build in public" philosophy. You can also

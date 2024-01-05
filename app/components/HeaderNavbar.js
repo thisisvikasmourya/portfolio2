@@ -17,7 +17,7 @@ export default function HeaderNavbar() {
   ];
 
   return (
-    <nav className="bg-white w-full border-b md:border-0 md:static py-2">
+    <nav className="bg-white w-full border-b md:border-0 md:static lg:py-2">
       <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
         <div className="flex items-center justify-between py-3 md:py-5 md:block">
           <a

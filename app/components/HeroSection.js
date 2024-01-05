@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Logo from "@/public/images/profile.png";
 import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
-
+import Link from "next/link";
 const HeroSection = () => {
   return (
     <div className="max-w-screen-xl mx-auto md:px-8 px-4 ">
@@ -45,15 +45,24 @@ const HeroSection = () => {
       </div>
       <div className="flex flex-row place-items-center ">
         <div className="flex list-none gap-5 text-[20px]">
-          <li className="border-black text-white bg-black  border-2 p-[16px] rounded-lg">
+          <Link
+            href="https://twitter.com/i/flow/login"
+            className="border-black text-white bg-black  border-2 p-[16px] rounded-lg"
+          >
             <FaXTwitter />
-          </li>
-          <li className="border-black border-2 p-[16px] rounded-lg">
+          </Link>
+          <Link
+            href={"https://www.instagram.com/thisisvikasmourya/"}
+            className="border-black border-2 p-[16px] rounded-lg"
+          >
             <FaInstagram />
-          </li>
-          <li className="border-black border-2 p-[16px] rounded-lg">
+          </Link>
+          <Link
+            href={"https://www.linkedin.com/in/vikas-mourya-74b006194/"}
+            className="border-black border-2 p-[16px] rounded-lg"
+          >
             <FaLinkedinIn />
-          </li>
+          </Link>
         </div>
 
         <hr className=" mx-5 px-4 border-2 border-black w-full" />

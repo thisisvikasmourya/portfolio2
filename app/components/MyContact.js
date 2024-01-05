@@ -1,5 +1,6 @@
 import React from "react";
 import { FaXTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
+import Link from "next/link";
 
 const MyContact = () => {
   return (
@@ -34,15 +35,24 @@ const MyContact = () => {
                   <button className="bg-black text-white py-2 px-4 rounded-[4px]">
                     Get In Touch
                   </button>
-                  <li className="border-black text-white bg-black  border-2 p-[16px] rounded-[4px]">
+                  <Link
+                    href="https://twitter.com/i/flow/login"
+                    className="border-black text-white bg-black  border-2 p-[16px] rounded-lg"
+                  >
                     <FaXTwitter />
-                  </li>
-                  <li className="border-black border-2 p-[16px] rounded-[4px]">
+                  </Link>
+                  <Link
+                    href={"https://www.instagram.com/thisisvikasmourya/"}
+                    className="border-black border-2 p-[16px] rounded-lg"
+                  >
                     <FaInstagram />
-                  </li>
-                  <li className="border-black border-2 p-[16px] rounded-[4px]">
+                  </Link>
+                  <Link
+                    href={"https://www.linkedin.com/in/vikas-mourya-74b006194/"}
+                    className="border-black border-2 p-[16px] rounded-lg"
+                  >
                     <FaLinkedinIn />
-                  </li>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -63,9 +73,11 @@ const MyContact = () => {
               </h1>
               <p className="w-full py-5">
                 {" "}
-                Full Stack Developer with over 20 years of extensive experience
-                in crafting innovative <br />
-                and scalable web solutions. My expertise
+                "Have a question, opportunity, or just want to connect?
+                <br /> With two years of experience as a Full Stack MERN
+                Developer, <br />
+                I'm ready to discuss your needs. Reach out and let's start the
+                conversation!"
               </p>
               <p className="text-[22px] font-semibold">
                 vikasmourya053@gmail.com

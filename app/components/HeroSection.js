@@ -52,7 +52,7 @@ const HeroSection = () => {
             <FaXTwitter />
           </Link>
           <Link
-            href={"https://www.instagram.com/thisisvikasmourya/"}
+            href={"https://www.instagram.com/thisisvikasmourya_/"}
             className="border-black border-2 p-[16px] rounded-lg"
           >
             <FaInstagram />
